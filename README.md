@@ -1,6 +1,8 @@
 # Sign up / Wishlist Pages
 
 This project is one of the several pages that will be found in Wishful web application.
+[Sign up page](https://wishful-app.netlify.app/) <br />
+[Wishlist page](https://wishful-app.netlify.app/dashboard)
 
 ## Description
 
