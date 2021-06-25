@@ -1,13 +1,37 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap");
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --heading-1: 40px;
+  --heading-2: 32px;
+  --heading-3: 24px;
+  --sub-heading-1: 18px;
+  --sub-heading-2: 16px;
+  --sub-heading-3: 14px;
+  --button: 24px;
+  --body-text-1: 16px;
+  --body-text-2: 14px;
+  --body-text-3: 12px;
+  --body-text-4: 10px;
+}
+
+body {
+  font-family: "Cardo", serif;
+  line-height: 24px;
+  font-size: var(--body-text-1);
+}
+
+.container {
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
 }

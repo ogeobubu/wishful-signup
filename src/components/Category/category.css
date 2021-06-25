@@ -1,0 +1,28 @@
+.category {
+  margin-top: 2rem;
+}
+
+.categoryItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gap {
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 978px) {
+  .categoryItems {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .categoryItem {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .categoryItems {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

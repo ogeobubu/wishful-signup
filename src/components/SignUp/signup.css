@@ -1,0 +1,175 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.signupContainer {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 20px 26px rgba(54, 53, 53, 0.16);
+  -webkit-box-shadow: 0px 20px 26px rgba(54, 53, 53, 0.16);
+  -moz-box-shadow: 0px 20px 26px rgba(54, 53, 53, 0.16);
+  background: #006cff;
+  width: 572px;
+  height: 756px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.signupTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 221px;
+}
+
+.logoTop {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.signupTopWave {
+  width: 100%;
+}
+
+.signupLogo {
+  align-self: center;
+  padding: 1rem;
+}
+
+.signupBody {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  border-radius: 32% 32% 0 0;
+  padding: 3rem;
+  width: 100%;
+  height: 100%;
+}
+
+.signupBodyHeading {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.signupForm {
+  margin-top: 1rem;
+}
+
+.formGroup {
+  display: flex;
+  margin-top: 0.8rem;
+  border: 1px solid #cccccc;
+  /* padding: 0.8rem; */
+  width: 374px;
+  height: 50px;
+}
+
+.formGroupItem {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  appearance: none;
+  margin-left: 1rem;
+}
+
+.passwordEye {
+  width: 25px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.signupButton {
+  height: 50px;
+  width: 100%;
+  margin: 1.5rem 0;
+  background-color: #006cff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 24px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.socialSignUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialSignUpText {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 15px;
+}
+
+.socialIcon {
+  margin-top: 1rem;
+}
+
+.clipboard {
+  position: absolute;
+  left: 3%;
+  bottom: 15%;
+}
+
+.clipboardImage {
+  width: 212px;
+  height: 262px;
+}
+
+.media {
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+}
+
+.mediaImage {
+  width: 384px;
+  height: 384px;
+}
+
+@media screen and (max-width: 1024px) {
+  .signupContainer {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .clipboardImage {
+    display: none;
+  }
+  .mediaImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .signupContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .formGroup {
+    width: 100%;
+  }
+}

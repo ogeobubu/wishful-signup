@@ -1,0 +1,136 @@
+.sidebar {
+  flex: 2;
+  background-color: #006cff;
+  color: white;
+  padding: 3.5rem 1.5rem;
+}
+
+.sidebarTop {
+  display: flex;
+  align-items: center;
+}
+
+.sidebarUser {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.sidebarUserImage {
+  width: 40px;
+}
+
+.sidebarUsername {
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 2rem;
+}
+
+.sidebarCenter {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarCenterContainer {
+  margin-top: 2rem;
+}
+
+.sidebarItemCategory {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sidebarItem {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+.iconTitle {
+  display: flex;
+  align-items: center;
+}
+
+.sidebarItemIcon {
+  margin-right: 0.5rem;
+  width: 24px;
+}
+
+.sidebarItemTitle {
+  margin-left: 0.7rem;
+}
+
+.dropDownIcon {
+  cursor: pointer;
+  width: 15px;
+}
+
+.dropDownCategories {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 108, 255, 0.8);
+  border-radius: 10px;
+  margin-top: 1rem;
+  box-shadow: 10px 12px 5px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 12px 5px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 12px 5px -10px rgba(0, 0, 0, 0.75);
+}
+
+.dropDownListCategory {
+  padding: 0.5rem;
+  /* background: #006cff; */
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 0.3rem;
+}
+
+.dropDownListCategory:hover {
+  font-weight: 600;
+  color: #006cff;
+  background-color: #ffffff;
+}
+
+.dropDownListItemCategory {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.sidebarBottom {
+  background: rgba(255, 255, 255, 1);
+  color: #111;
+  border-radius: 8px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sideBottomContainer {
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 77px;
+}
+
+.addNewWishlist {
+  width: 100%;
+}
+
+.sideBottomIcon {
+  width: 45px;
+  cursor: pointer;
+}

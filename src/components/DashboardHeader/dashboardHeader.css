@@ -1,0 +1,148 @@
+.dashboardHeader {
+  background: #ffffff;
+  height: 70px;
+  box-shadow: 0px 16px 40px rgba(13, 63, 103, 0.1);
+}
+
+.dashboardHeaderContainer {
+  margin: 1.3rem 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboardHeaderLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #006cff;
+  margin-right: 0.2rem;
+}
+
+.dashboardHeaderLogo {
+  background: #ffffff;
+  color: #ffffff;
+  width: 30px;
+  cursor: pointer;
+}
+
+.dashboardHeaderTitle {
+  font-size: 40px;
+  color: #006cff;
+  font-weight: 600;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.dashboardHeaderCenter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wishlistFriends {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 7rem;
+}
+
+.wishlistHeader {
+  color: #ffffff;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.wishlistHeader.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 138px;
+  height: 40px;
+  background-color: #006cff;
+}
+
+.friendsHeader {
+  font-weight: 600;
+  line-height: 24px;
+  color: #006cff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.createWishlist.active {
+  width: 138px;
+  height: 40px;
+  background-color: #006cff;
+  color: #ffffff;
+}
+
+.dashboardHeaderRight {
+  display: flex;
+}
+
+/* .user {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+} */
+
+.bellNotification {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.userIcon {
+  width: 40px;
+}
+
+@media screen and (max-width: 1040px) {
+  .navList {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 714px) {
+  .dashboardHeaderCenter {
+    display: none;
+  }
+
+  .searchCategory {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .createShare {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .dashboardHeaderRight {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .dashboardHeaderTitle {
+    font-size: 20px;
+  }
+  .bellNotification {
+    margin-right: 0;
+  }
+}

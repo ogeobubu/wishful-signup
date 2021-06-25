@@ -1,0 +1,126 @@
+.footer {
+  background-color: #006cff;
+  color: #ffffff;
+}
+
+.footerContainer {
+  max-width: 92%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.footerLeft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+
+.footLogoTitle {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.footerLogo {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.footerLogoTitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.terms,
+.privacy {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.date {
+  margin-top: 2rem;
+}
+
+.footerRight {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+}
+
+.footerLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footerLinkItem {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  .footerLeft {
+    padding: 0;
+  }
+
+  .footerRight {
+    flex: 0;
+  }
+
+  .footerLink {
+    display: flex;
+    list-style-type: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .signupTop {
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .signupTop {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .footerLeft {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .signupTop {
+    height: 150px;
+  }
+  .footerLinkItem {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .signupTop {
+    height: fit-content;
+  }
+  .footerLink {
+    flex-direction: column;
+  }
+}
